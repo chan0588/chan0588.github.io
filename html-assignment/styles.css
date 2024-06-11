@@ -12,7 +12,7 @@ header, footer {
 }
 
 .site-title {
-    color: #333;
+    color: #580a88;
 }
 
 #my-image {
@@ -24,18 +24,23 @@ ul {
 }
 
 ul li:nth-child(odd) {
-    background-color: #f0f0f0;
+    background-color: #edcccc;
 }
 
 nav ul {
     list-style-type: none;
+    display:flex;
+}
+
+nav ul li{
+    margin-right: 10px;
 }
 
 nav a {
     text-decoration: none;
-    background-color: #ddd;
-    padding: 5px;
-    border: 1px solid #ccc;
+    background-color: #e865bc;
+    padding: 1px;
+    border: 1px solid #080808;
 }
 
 nav a:hover, nav a:focus {

@@ -1,4 +1,4 @@
-/* styles.css 文件內容 */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -6,7 +6,7 @@ body {
 }
 
 header, footer {
-    background-color: #f8f8f8;
+    background-color: #e77979;
     padding: 10px;
     text-align: center;
 }

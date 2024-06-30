@@ -118,23 +118,28 @@ form input,form textarea{
 
 form button {
     padding: 10px 20px;
-    border: none;
+    border: 1px solid black;
     border-radius: 1px;
-    background-color: rgb(108, 133, 159);
-    color: white;
+    background-color: none;
+    color: rgb(6, 6, 6);
     cursor: pointer;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 400px;
     margin-bottom: 20px;
 }
 
 form button:hover {
-    background-color: #257;
+    background-color: rgb(4, 4, 4);
+}
+
+form div{
+    margin:px 0px;
+    padding:0 0px;
 }
 
 footer {
     text-align: right;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: none;
     margin-top: 20px;
 }

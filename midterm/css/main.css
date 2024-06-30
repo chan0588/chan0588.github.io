@@ -5,6 +5,7 @@ body{
     padding: 0;
     width:100%;
 }
+/*set the font and background and width*/
 
 header{
     position: relative;
@@ -13,12 +14,14 @@ header{
     margin: 0;
     padding: 0;
 }
+/*set header position,color and center the font*/
 
 header img{
     width: 100%;
     height: auto;
     display:block;
 }
+/*add wider to img*/
 
 .header-title{
 position: absolute;
@@ -27,15 +30,15 @@ left: 50%;
 transform: translate(-50%,-70%);
 font-size: 35px;
 padding: 10px 20px;
-
 }
+/*set the title to absolute position and size*/
 
 .wrapper{
     background-color:#d9f4ee;
     width: 70%;
     margin: auto;
-  
 }
+/*set wrapper color and width*/
 
 nav ul{
     list-style: none;
@@ -44,11 +47,13 @@ nav ul{
     display: flex;
     justify-content: space-around;
 }
+/*center meun*/
 
 nav ul li{
     flex: 1;
     text-align: center ;
 }
+/*set the size of meun botton*/
 
 nav ul li a {
     color: rgb(1, 1, 1);
@@ -59,10 +64,13 @@ nav ul li a {
     box-sizing: border-box;
     border-right: 2px solid rgb(168, 156, 156) ;
 }
+/*add border line and padding and color*/
+
 
 nav ul li:last-child a {
     border-right: none; 
 }
+/*take out border of CONTACT*/
 
 article img{
     float: left;
@@ -72,12 +80,14 @@ article img{
     width: 180px;
     height: auto;
 }
+/*set size of article image*/
 
 
 h2{
     margin-left:20px;
     font-size: 2em;
 }
+/*set h2 font size and margin*/
 
 p{
     font-size: 1em;
@@ -85,11 +95,13 @@ p{
     margin-right: 1em;
     line-height: 1.6;
 }
+/*set p font size and margin*/
 
 h3{
     font-size: 1.5em;
     margin-left: 1em;
 }
+/*set h3 font size and margin*/
 
 form{
     display: flex;
@@ -99,12 +111,14 @@ form{
     margin-left: 20px;
     margin-right: 20px;
 }
+/*set form border and display*/
 
 form label{
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
 }
+/*set label margin*/
 
 form input,form textarea{
     padding: 5px;
@@ -115,27 +129,21 @@ form input,form textarea{
     margin-left: 20px;
     margin-right: 20px;
 }
+/*set form textarea margin and border*/
 
 form button {
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: 1px solid black;
     border-radius: 1px;
-    background-color: none;
-    color: rgb(6, 6, 6);
+    background-color: transparent;
+    color: black;
     cursor: pointer;
-    margin-left: 20px;
-    margin-right: 400px;
-    margin-bottom: 20px;
+    margin: 10px 5000px 10px 20px;
+    display: inline-block;
+    min-width: 80px; 
 }
+/*set button padding and border*/
 
-form button:hover {
-    background-color: rgb(4, 4, 4);
-}
-
-form div{
-    margin:px 0px;
-    padding:0 0px;
-}
 
 footer {
     text-align: right;
@@ -143,3 +151,4 @@ footer {
     background-color: none;
     margin-top: 20px;
 }
+/*set fotter align on right and padding and margin*/

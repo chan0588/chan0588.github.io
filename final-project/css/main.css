@@ -317,6 +317,50 @@ nav ul li a {
     width: 100px;
 }
 
+/*adjust banner wrapper size*/
+.banner-wrapper{
+    max-width: 80%;
+}
+    
+/*about us img on left and text on right*/
+.content-wrapper article img {
+    width: 50%; 
+    float: left;
+    
+}
 
+/*our service blocks*/
+.our-services-container{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,6fr);
+    row-gap: 20px;
+    column-gap: 20px;
 
+}
+
+.digital {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+}
+
+.marketing {
+    grid-column: 4 / span 3;
+    grid-row: 1 / span 1;
+}
+
+.video {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+}
+
+.web {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 1;
+}
+
+.print {
+    grid-column: 5 / span 2; 
+    grid-row: 2 / span 1;
+}
 }

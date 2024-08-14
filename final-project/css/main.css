@@ -325,42 +325,75 @@ nav ul li a {
 /*about us img on left and text on right*/
 .content-wrapper article img {
     width: 50%; 
-    float: left;
+    align-items: left;
     
 }
+
 
 /*our service blocks*/
 .our-services-container{
     padding: 100px;
     display: grid;
-    grid-template-columns: repeat(6,6fr);
+    grid-template-columns: repeat(6,3fr);
     row-gap: 20px;
     column-gap: 20px;
 
 }
 
+.h2{
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 1;
+
+}
+
 .digital {
     grid-column: 1 / span 3;
-    grid-row: 1 / span 1;
+    grid-row: 2 / span 1;
 }
 
 .marketing {
     grid-column: 4 / span 3;
-    grid-row: 1 / span 1;
+    grid-row: 2 / span 1;
 }
 
 .video {
     grid-column: 1 / span 2;
-    grid-row: 2 / span 1;
+    grid-row: 3 / span 1;
 }
 
 .web {
     grid-column: 3 / span 2;
-    grid-row: 2 / span 1;
+    grid-row: 3 / span 1;
 }
 
 .print {
     grid-column: 5 / span 2; 
-    grid-row: 2 / span 1;
+    grid-row: 3 / span 1;
 }
+
+/*my team blocks*/
+.team-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
+.team-container .block{
+    box-sizing: border-box;
+    flex: 1 1 calc(50% - 10px); 
+}
+
+
+
+.team-container .block:nth-child(odd) {
+    width: 48%; 
+}
+
+.team-container .block:nth-child(even) {
+    width: 48%; 
+}
+
+
 }

@@ -1,0 +1,290 @@
+/*mobile styles*/
+
+/*webpage font, color and size*/
+body {
+    font-family: open sans;
+    background-color: #ffe6ac; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*header color */ 
+.header-container{
+    background-color: #222;
+    padding: 20px;
+}
+
+/*logo extend color*/
+#logo{
+    background-color: #c78c06;
+}
+
+/*center meun*/ 
+ul{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position:center;
+}
+
+/*meun text style*/
+li a {
+    display: block;
+    color: #c78c06;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  /*search container size and postion*/
+.search-container input[type=text]{
+   text-align: center;
+   width: 500px;
+   font-size: 20px;
+   text-align: left;
+}
+
+/*search button recolor amd size*/
+.search-button {
+    color: #c78c06;
+    font-size: 1.5em;
+    border: none;
+
+
+ } 
+
+ /*meun hover*/
+li a:hover{
+    background-color: #c78c06;
+    color: black;
+}
+
+/*main banner image*/
+.main-banner {
+    background-image: url("../images/main-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}    
+
+/*background for the text and size*/
+.banner-wrapper{
+    background-color:rgba( 2,2,2,0.6);
+    color: white;
+    padding: 20px;
+    text-align: left;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/*h1 size*/
+h1{
+    font-size: 4rem;
+}
+
+/*style for button*/
+.banner-wrapper button{
+    margin-top: 50px;
+    padding: 30px 60px;
+    background-color: #c78c06;
+    font-size: 1em;
+    border: none;
+}
+
+/*Button*/
+.connect-button::after{
+    position: absolute;
+} 
+
+/*about us image full width*/
+.content-wrapper article img {
+    width: 100%; 
+    
+}
+
+/*about us img and text in center*/
+.content-wrapper article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+
+/*h2 size*/
+h2{
+    font-size: 3rem;
+}
+
+/*set background color for block*/
+.blocks {
+    background-color: #ffe6ac;
+    text-align: left; 
+    margin-bottom: 20px; 
+    
+}
+
+/*set our services container background color*/
+.our-services-container{
+    background-color:  white;
+}
+
+/*blocks width*/
+.blocks img {
+    width: 100%; 
+    height: auto; 
+}
+
+/*block font size*/
+.blocks h3 {
+    font-size: 1.5em; 
+    
+}
+
+/*style for button*/
+.our-services-container button{
+    margin-top: 10px;
+    padding: 30px 60px;
+    background-color: #222;
+    font-size: 1em;
+    color: white;
+    border: none;
+    text-align: left;
+}
+
+/*our vision image*/
+.vision-container {
+    background-image: url("../images/vision.jpg");
+    background-size: cover; /* Ensures the image covers the container and resizes based on the screen size */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%; /* Ensure the container takes up the full width of its parent */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    padding: 10px;
+}
+
+/*h3 font size*/
+h3{
+    font-size: 3rem;
+}
+  
+/*style for button*/
+.vision-container button{
+    margin-top: 10px;
+    padding: 30px 60px;
+    background-color: #222;
+    font-size: 1em;
+    color: white;
+    border: none;
+    text-align: left;
+}
+
+/* Team container */
+.team-container {
+    background-color: white; 
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* make two block align */
+.team-container .block {
+    background-color: #ffe6ac; 
+    padding: 20px;
+    margin: 0px;
+    flex: 1 1 calc(50% - 40px); 
+    text-align: center;
+}
+
+/*contat Us*/
+.team-container .block:nth-child(odd){
+    margin-bottom: 20px;
+}
+
+.team-container .block:nth-child(even) {
+    margin-top: 20px; 
+}
+
+.team-container img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-container{
+    background-color: white;
+    width: 100%;
+}
+
+.contact-container label{
+    display: block;
+    margin-bottom: 8px;
+    
+}
+
+.contact-container input{
+    width: 100%;
+}
+
+.contact-container textarea{
+    width: 100%;
+}
+
+/*hours o operation*/
+.operation-hours{
+    background-color: #fff;
+   padding: 20px;
+}
+    
+.operation-hours h2{
+    color: #222;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+
+.operation-hours table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.operation-hours table,th,td{
+    border:1px solid #222
+}
+
+th,td{
+    padding: 8px;
+}
+
+th{
+    background-color: #ffe6ac;
+}
+
+footer {
+    text-align: left;
+    padding: 20px;
+    background-color:#222;
+    color: #c78c06;
+    margin-top: 20px;
+}
+
+/*screens 760px and above*/
+@media (min-width: 760px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+
+    

@@ -285,6 +285,38 @@ footer {
         margin: 0 auto;
     }
 
+/* change menu to horizontal*/
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 0 1rem; 
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 1rem 2rem; 
+    text-align: center; 
+}
+
+/*header logo cancel background color and next to meun*/
+.header-container {
+    background-color: #222;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*adjust search bar*/
+.search-container input[type=text]{
+    width: 100px;
+}
 
 
-    
+
+}
